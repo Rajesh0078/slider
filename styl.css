@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dddada;
+    overflow: hidden;
+}
+section{
+    width: 70%;
+    height: 20rem;
+    box-shadow: 1px 1px 1rem rgba(129, 129, 129, 0.8);
+    border-radius: 1rem;
+    background: #ebe7e7;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+    gap: 20px;
+    overflow-x: hidden;
+}
+.card{
+    height: 15rem;
+    min-width: 10rem;
+    border-radius: 1rem;
+    border: .1rem solid #a8a5a5;
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+}
